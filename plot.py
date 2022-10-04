@@ -15,8 +15,8 @@ plot_data = wdi[
 ]
 
 plot_data.plot(
-    x="Mortality rate, infant (per 1,000 live births)",
-    y="GDP per capita (constant 2010 US$)",
+    x="GDP per capita (constant 2010 US$)",
+    y="Mortality rate, infant (per 1,000 live births)",
     kind="scatter",
 )
 plt.show()
